@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set width of the div to 100% */
+    height: 100%; /* Set height of the div to 100% */
+    background-image: url('/background.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.header-text{
+    left: 0; 
+    color: white;
+    display: flex;  
+    padding-left: 40px; 
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    font-size: 90px;
+    font-style:bold;
+    top: 30%
+}
+
+h2{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    font-style:light
+}
+
+.navbar {
+    background-color: black; /* Background color of the navbar */
+    overflow: hidden;
+    text-align: right; 
+    top: 20px; 
+    right: 40px;
+    z-index: 1000;
+    mix-blend-mode: lighten;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif
+}
+
+.bear-logo {
+    display: flex;
+    z-index: 1005;
+    position: absolute; /* Position the logo absolutely */
+    left: 20px; /* Adjust left position as needed */
+    top: 5%; /* Align the logo vertically */
+    transform: translateY(-50%); /* Center the logo vertically */
+  }
+  
+  .circle {
+    width: 55px; 
+    height: 55px;
+    border-radius: 50%; 
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle img {
+    max-width: 70%; /* Ensure the image fits inside the circle */
+    max-height: 70%;
+  }
+  
+

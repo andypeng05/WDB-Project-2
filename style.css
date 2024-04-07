@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  }
+header {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding-bottom: 0;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    align-content: center;
+
+
+}
+  
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first navigation item */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  img {
+    width: 50px; /* Adjust the width of the logo as needed */
+    margin-right: 20px; /* Add some space between the logo and navigation */
+  }
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+
+}
+intro p{
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 0;
+}
+bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+
+}
+left{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 2%;
+    flex-basis: 0;
+    flex-grow: 1;
+    border-radius: 10%;
+}
+left p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+middle{
+    color: rgb(158, 158, 158);
+    text-align: center;
+    background-color: black;
+    margin: 2%;
+    flex-basis: 0;
+    flex-grow: 1;
+    border-radius: 10%;
+    
+
+}
+right{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 2%;
+    flex-basis: 0;
+    flex-grow: 1;
+    border-radius: 10%;
+
+}
+right img{
+    width: 400px;
+}
+middle p{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+middle ul{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    list-style: circle;
+    list-style-position: inside;
+    padding: 0;
+    padding-bottom: 5%;
+}
+middle h2{
+    color: white;
+}
+p em{
+    color: rgb(45, 104, 255);
+}
+left p{
+    color: rgb(158, 158, 158);
+}
+middle img{
+    width: 300px;
+}
+
+.slider {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 300px;
+    height: 350px;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0,0%, 0%, 0.5);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}

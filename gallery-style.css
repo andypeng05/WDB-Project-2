@@ -1,0 +1,64 @@
+
+header {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  padding-bottom: 0;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  align-content: center;
+
+
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin from the first navigation item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+img {
+  width: 50px; /* Adjust the width of the logo as needed */
+  margin-right: 20px; /* Add some space between the logo and navigation */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: calc(33.33% - 10px); /* Adjust the width based on the number of items per row */
+    margin-bottom: 20px; /* Adjust margin between items */
+    position: relative; /* Needed for aspect ratio */
+  }
+  
+  .item img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default spacing below the image */
+  }
+  
+  .caption {
+    text-align: center;
+    margin-top: 5px; /* Adjust margin between image and text */
+    font-family: 'Poppins', sans-serif
+  }
+  
